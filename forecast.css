@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+h1{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+}
+#forecast{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 5px;
+}
+#forecast>div{
+   background-color:white;
+   color: black;
+   border: 1px solid white;
+   width: 90%;
+   text-align: center;
+   border-radius: 10px;
+}
+img{
+    width: 100%;
+}
+#back{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#back>a{
+    text-decoration: none;
+    color: black;
+
+}
+#back:hover{
+    background-color: yellow;
+}

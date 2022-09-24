@@ -1,0 +1,66 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1511667158582-e626b6e6bb48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* display: flex; */
+}
+#searchCity{
+    height: 40px;
+    margin-top: 30px;
+    width: 99%;
+    background-color: white;
+    font-size: 20px;
+}
+button{
+    margin-top: 20px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+#container{
+    /* border: 1px solid red; */
+    width: 30%;
+    background-color: transparent;
+    color: color;
+    font-weight: bold;
+    padding-bottom: 30px;
+    /* padding-top: 30px; */
+    border-radius: 10px;
+    padding-left: 20px;
+
+}
+#container>h1{
+    font-size: 50px;
+}
+
+
+/* copied part below */
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+  }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+  }
+  #whole{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+
+  
+
+  
